@@ -97,12 +97,12 @@
 
     </section>
 
-    <section>
+    <section class="hero-section">
       <div>
-        <!-- <img src="./images/connectedness-mobile.png" alt="connectedness" /> -->
+        <img class="hero-img" src="./images/connectedness-mobile.png" alt="connectedness" />
       </div>
 
-      <div>
+      <div class="hero-description-box">
         <h2>Bring your team together</h2>
 
         <p>
@@ -111,13 +111,13 @@
         </p>
 
         <a href="#">
-          <span>Learn more about channels</span>
+          <span>Learn more about channels →</span>
         </a>
       </div>
     </section>
 
-    <section>
-      <div>
+    <section class="hero-section-revesre">
+      <div class="hero-description-box">
         <h2>Choose how you want to work</h2>
         <p>
           In Slack, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat,
@@ -126,84 +126,88 @@
         </p>
 
         <a href="#">
-          <span>Learn more about flexible communication</span>
+          <span>Learn more about flexible communication →</span>
         </a>
       </div>
 
       <div>
-        <!-- <img src="./images/flexibility-mobile.png" alt="flexibility" /> -->
+        <img class="hero-img" src="./images/flexibility-mobile.png" alt="flexibility" />
       </div>
     </section>
 
-    <section>
+    <section class="hero-section">
       <div>
-        <!-- <img src="./images/speed-mobile.png" alt="speed" /> -->
+        <img class="hero-img" src="./images/speed-mobile.png" alt="speed" />
       </div>
 
-      <div>
-        <h2>Move faster with your tools in one place</h2>
+      <div class="hero-description-box">
+        <h2 >Move faster with your tools in one place</h2>
         <p>
           With your other work apps connected to Slack, you can work faster by switching tabs less. And with powerful
           tools like Workflow Builder, you can automate away routine tasks.
         </p>
 
         <a href="#">
-          <span>Learn more about the Slack platform</span>
+          <span>Learn more about the Slack platform →</span>
         </a>
       </div>
     </section>
 
 
-    <section>
+    <section class="contact-section">
       <h3>Teams large and small rely on Slack</h3>
-      <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
+      <p class="contact-text">Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
-      <div>
-        <button>Meet Slack for enterprise</button>
-        <button>Talk to sales</button>
+      <div class="contact-button-box">
+        <button class="btn design1">Meet Slack for enterprise</button>
+        <button class="btn design2">Talk to sales</button>
       </div>
 
       <ul>
-        <li>
+        <li class="contact-item">
           <p><span>85%</span></p>
-          <p>
+          <p class="contact-text">
             of users say Slack has improved communication
             <sup>*</sup>
           </p>
         </li>
 
-        <li>
+        <li class="contact-item">
           <p><span>86%</span></p>
-          <p>
+          <p class="contact-text">
             feel their ability to work remotely has improved has improved
             <sup>*</sup>
           </p>
         </li>
 
-        <li>
+        <li class="contact-item">
           <p><span>88%</span></p>
-          <p>
+          <p class="contact-text">
             feel more connected to their teams*
             <sup>*</sup>
           </p>
         </li>
       </ul>
+
+      <div>
+        <p class="text-survey"><sup>*</sup> Weighted average. Based on 2.2707 survey responses from weekly Slack users in the U.S., UK, Australia and Canada with a &plusmn; 2% margin of error at 95% CI (August 2020).</p>
+      </div>
     </section>
 
-    <section>
+    <section class="section-signup">
       <h3>Welcome to your new digital HQ</h3>
 
-      <button>Try for free</button>
-      <button>Talk to sales</button>
+      <button class="btn design1 border-color">Try for free</button>
+      <button class="btn design2" >Talk to sales</button>
     </section>
 
   </main>
 
   <footer>
     <img src="./images/iso-slack.png" alt="Slack logo" />
-    <div>
+    <div class="footer-box">
       <ul>
-        <li>WHY SLACK?</li>
+        <li class="list-title">WHY SLACK?</li>
         <li>Slack vs. Email</li>
         <li>Channels</li>
         <li>Engagement</li>
@@ -212,7 +216,7 @@
       </ul>
 
       <ul>
-        <li>PRODUCT</li>
+        <li class="list-title">PRODUCT</li>
         <li>Features</li>
         <li>Integrations</li>
         <li>Enterprise</li>
@@ -221,13 +225,13 @@
       </ul>
 
       <ul>
-        <li>PRICING</li>
+        <li class="list-title">PRICING</li>
         <li>Plans</li>
         <li>Paid vs. Free</li>
       </ul>
 
       <ul>
-        <li>COMPANY</li>
+        <li class="list-title">COMPANY</li>
         <li>About Us</li>
         <li>Leadership</li>
         <li>Investor Relations</li>
@@ -237,18 +241,18 @@
       </ul>
     </div>
 
+    <hr>
 
-    <ul>
+    <ul class="list-footer">
       <li>Status</li>
       <li>Privacy</li>
       <li>Terms</li>
       <li>Cookie Preferences</li>
       <li>Contact Us</li>
-      <li>Change Region</li>
-      <li>Download Slack</li>
+      <li class="item-center"><ion-icon name="globe-outline"></ion-icon><span>Change Region</span></li>
+      <li class="item-center"><ion-icon name="cloud-download-outline"></ion-icon>Download Slack</li>
     </ul>
 
-    <hr>
 
     <ul>
       <li>
@@ -273,6 +277,9 @@
     </div>
 
   </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
