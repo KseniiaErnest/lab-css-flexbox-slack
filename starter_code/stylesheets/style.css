@@ -30,7 +30,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-@media (min-width: 48em) {
   /* NAVIGATION */
 
   .nav-container {
@@ -395,7 +394,7 @@ hr {
   color: #4285F4;
 }
 
-.footer-box-last {
+.footer-box-sociallinks {
   display: flex;
   justify-content: space-between;
   margin: 2rem 0 2rem 0;
@@ -406,16 +405,8 @@ small {
   color:#b5b3b5;
   line-height: 1.5;
 }
-}
 
-
-/* @media (min-width: 48.1em) and (max-width: 64em) {
-body {
-  background-color: black;
-}
-} */
-
-@media (max-width: 64em) {
+@media (min-width: 764px) and (max-width: 1024px) {
   /* HEADER SECTION */
   header {
     display: flex;
@@ -439,5 +430,200 @@ body {
     padding: 0;
 
   }
+/* HERO SECTION */
+  .hero-img {
+    width: 34rem;
+  }
+
+  .flex-small-screen {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .hero-description-box {
+    padding: 0 15rem 0 13rem;
+  }
+
+  /* CONTACT SECTION */
+  .contact-button-box {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .contact-button-box .design1 {
+    width: 40%;
+
+  }
+
+  .contact-button-box .design2 {
+width: 25%;
+  }
+
+  .contact-ul-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .contact-item {
+    width: 8rem;
+    text-align: center;
+  }
+
+  /* SIGNUP SECTION */
+
+  .section-signup h3 {
+    font-size: 2.4rem;
+
+  }
+
+  .section-signup .btn {
+    width: 80%;
+  }
+
+  .section-signup .design1 {
+    background-color: #fefdfc;
+    color: #540B51;
+  }
+
+  .section-signup .design2 {
+    background-color: #540B51;
+  color: white;
+  border: #ececec solid 2px;
+  }
+
+  /* FOOTER SECTION */
+
+  .footer-box {
+    justify-content: space-between;
+  }
+
+  .list-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-box-sociallinks {
+    justify-content: flex-start;
+    gap: 4rem;
+
+  }
+
 }
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    /* NAVIGATION SECTION */
+    .logo-list-container {
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+    }
+    .nav-ul-container {
+      display:contents;
+    }
+  
+    .nav-ul-container li a {
+      color: #ececec;
+    }
+  
+    .btn-hidden-bigscreen {
+      display: none;
+    }
+  
+    .nav-signup-box {
+      /* width: 9rem; */
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      padding-right: 1.2rem;
+    }
+  
+    .item1 {
+      width: 4rem;
+      color:#ececec ;
+    }
+  
+    .design-link1{
+      color:#ececec ;
+    }
+  
+    .item2 {
+      background-color: #ececec;
+      padding: 0.8rem 1rem 0.8rem 1rem;
+      border: 1px solid black;
+      width: 8rem;
+      border-radius: 5px;
+      text-align: center;
+    }
+  
+    .singup-link:link, .singup-link:active {
+    text-decoration: none;
+    }
+  
+    .nav-button-container {
+      gap: 1rem;
+    }
+  
+    .companies-section {
+      padding-bottom: 7rem;
+    }
+  
+  /* HEADER SECTION */
+  
+  header {
+    align-items: center;
+  }
+  
+  .header-box {
+    width: 49%;
+  }
+  .header-img-box img {
+    width: 135%; 
+    height: 90%;
+    padding: 2rem 0 2rem 0;
+    scale: 0.8;
+  }
+  
+  .header-box h1 {
+    font-size: 3.8rem;
+    margin-bottom: 5rem;
+  }
+  
+  .header-box p {
+    font-size: 1.2rem;
+  }
+  
+  /* HERO SECTION */
+  .hero-section {
+    flex-direction: row;
+    padding-bottom: 3.8rem;
+  }
+  
+  .hero-section-revesre {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 4rem 0 3.8rem 0;
+  }
+  
+  .hero-section-revesre .hero-description-box {
+    margin-right: 7rem;
+  }
+   
+  .hero-description-box {
+    padding: 0 0rem 0 6rem;
+    width: 40%;
+  }
+  
+  .hero-description-box h2 {
+    font-size: 2.4rem;
+  }
+  
+  .hero-img {
+    width: 35rem;
+    height: 25rem;
+  }
+  
+}
+
+
 
